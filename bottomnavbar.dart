@@ -8,7 +8,7 @@ class WidgetBot extends StatefulWidget {
 class _WidgetBotState extends State<WidgetBot> {
   int _currentIndex = 0;
 
-  final List<Widget> body = [
+  List<Widget> body = const [
     SliderP(),
     Icon(Icons.menu),
     Icon(Icons.map),
